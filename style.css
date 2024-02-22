@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #fdfaf3;
+  margin: 0px;
+}
+
+/* Header Styling */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid black;
+  position: sticky;
+  padding-left: 10px;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  background-color: #fdfaf3;
+}
+.title {
+  margin: 0px;
+  font-size: 24px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.title:hover {
+  color: orangered;
+  transition: all 0.3s;
+}
+.name {
+  border-right: 2px solid black;
+}
+.resume-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  border-left: 2px solid black;
+}
+
+/* main-component */
+.main-component {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.left-component {
+  width: 60%;
+  height: 100vh;
+  border-right: 2px solid black;
+}
+.right-component {
+  width: 40%;
+  height: 100vh;
+  background-image: url("./assets/rahul's\ photo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.chips-flex {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+}
+.chips {
+  font-size: 20px;
+  font-weight: 500;
+  border: 2px solid black;
+  padding: 0.35rem 1rem;
+  text-align: center;
+  min-width: 100px;
+  border-radius: 4rem;
+  cursor: pointer;
+}
+.chips:hover {
+  color: #fdfaf3;
+  background-color: black;
+  transition: all 0.3s;
+}
+.main-text {
+  font-size: 24px;
+  font-weight: 700;
+}
+.main-info {
+  border-bottom: 2px solid black;
+}
+
+.para {
+  font-size: 24px;
+  margin: 5px;
+}
+.social {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.edu {
+  margin: 18.9px;
+}
